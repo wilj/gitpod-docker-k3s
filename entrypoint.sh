@@ -4,6 +4,7 @@ set -eu
 
 mount --make-shared /sys/fs/cgroup
 mount --make-shared /var/gitpod/workspaces
+mount --make-shared /proc
 
 # prepare Gitpod helm installer
 if [ -f /var/lib/rancher/k3s/server/manifests/gitpod-helm-installer.yaml ]; then
