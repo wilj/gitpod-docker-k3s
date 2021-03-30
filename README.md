@@ -7,8 +7,6 @@
 
 ## Quick Start
 
-### Docker run:
-
 ```shell
 # creates SSL certs and dhparams
 $ ./create-certs.sh <domain> <email>
